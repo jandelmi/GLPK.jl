@@ -498,6 +498,7 @@ mutable struct IntoptParam <: Param
     clq_cuts::Cint
     presolve::Cint
     binarize::Cint
+    sr_heur::Cint
     fp_heur::Cint
     ps_heur::Cint
     ps_tm_lim::Cint
