@@ -43,7 +43,7 @@ if is_apple()
 end
 
 # Windows
-provides(Binaries, URI("https://bintray.com/artifact/download/tkelman/generic/win$glpkwinname.zip"),
+provides(Binaries, URI("http://ftp.gnu.org/gnu/glpk/$glpkname.tar.gz"),
          glpkdep, unpacked_dir="$glpkwinname/w$(Sys.WORD_SIZE)", os = :Windows)
 
 @BinDeps.install Dict(:libglpk => :libglpk)
